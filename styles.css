@@ -1,31 +1,40 @@
+
 body{
     padding:25px;
     background-color: hsl(0, 0%, 100%);
     max-width: 1440px;
-    font-family: 'Outfit';
+    font-family: "Outfit",sans-serif;
 }
 .imageContainer {
     width: auto;
     height: auto;
   }
-  .textContainer {
-    font-family:Outfit
-  }
-  
+
   img {
     width: 100%; /* takes the 100 % width of its container (.box div)*/
     height: 100%; 
     border-radius:25px;/* takes the 100 % height of its container (.box div)*/
+  }
+  section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  h1{
+    max-width:65%;
+    margin:auto;
   }
   p {
     color: hsl(212, 45%, 89%);
     font-weight: 400;
     text-align: center;
     font-size: 15px;
+    margin: auto;
+    max-width: 50%;
   }
   h1{
     text-align: center;
     font-weight: 700;
-    font-size: 25px;
-    font-family: 'Outfit';
+    font-size: 30px;
+    padding:15px
   }
